@@ -253,6 +253,7 @@ SET(MULTIMC_UIS
     # Platform pages
     pages/modplatform/VanillaPage.ui
     pages/modplatform/legacy_ftb/Page.ui
+    pages/modplatform/TwitchPage.ui
     pages/modplatform/ImportPage.ui
 
     # Dialogs
