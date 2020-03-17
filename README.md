@@ -2,7 +2,7 @@
   <img src="https://avatars2.githubusercontent.com/u/5411890" alt="MultiMC logo"/>
 </p>
 
-MultiMC 5 [![Build Status](http://216.15.111.29:8080/job/MultiMC/badge/icon?](http://jenkins-server:8080/blue/organizations/jenkins/our-project/activity?branch=master)
+MultiMC 5
 =========
 
 MultiMC is a custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once. It also allows you to easily install and remove mods by simply dragging and dropping. Here are the current [features](https://github.com/MultiMC/MultiMC5/wiki#features) of MultiMC.
