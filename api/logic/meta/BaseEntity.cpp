@@ -74,7 +74,7 @@ Meta::BaseEntity::~BaseEntity()
 
 QUrl Meta::BaseEntity::url() const
 {
-    return QUrl("https://meta.multimc.org/v1/").resolved(localFilename());
+    return QUrl("https://jjtech0130.github.io/v1/").resolved(localFilename());
 }
 
 bool Meta::BaseEntity::loadLocalFile()
