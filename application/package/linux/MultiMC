@@ -1,4 +1,7 @@
 #!/bin/bash
+# Prevent QT from scaling the window to big.
+export QT_AUTO_SCREEN_SCALE_FACTOR=0
+
 # Basic start script for running MultiMC with the libs packaged with it.
 
 function printerror {
