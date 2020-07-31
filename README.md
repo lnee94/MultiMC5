@@ -2,7 +2,7 @@
   <img src="https://avatars2.githubusercontent.com/u/5411890" alt="MultiMC logo"/>
 </p>
 
-MultiMC 5
+MultiMC 5 [![Build Status](https://travis-ci.com/JJTech0130/MultiMC5.svg?branch=develop)](https://travis-ci.com/JJTech0130/MultiMC5)
 =========
 
 MultiMC is a custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once. It also allows you to easily install and remove mods by simply dragging and dropping. Here are the current [features](https://github.com/MultiMC/MultiMC5/wiki#features) of MultiMC.
@@ -44,36 +44,3 @@ Copyright &copy; 2013-2019 MultiMC Contributors
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this program except in compliance with the License. You may obtain a copy of the License at [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
-
-## Build status
-### Linux (Intel32)
-<a href="https://teamcity.multimc.org/viewType.html?buildTypeId=MultiMC_Launcher_Linux32_Build&guest=1">
-Build: <img src="https://teamcity.multimc.org/app/rest/builds/buildType:(id:MultiMC_Launcher_Linux32_Build)/statusIcon"/>
-</a>
-<a href="https://teamcity.multimc.org/viewType.html?buildTypeId=MultiMC_Launcher_Linux32_Deploy&guest=1">
-Deploy: <img src="https://teamcity.multimc.org/app/rest/builds/buildType:(id:MultiMC_Launcher_Linux32_Deploy)/statusIcon"/>
-</a>
-
-### Linux (AMD64)
-<a href="https://teamcity.multimc.org/viewType.html?buildTypeId=MultiMC_Launcher_Linux64_Build&guest=1">
-Build: <img src="https://teamcity.multimc.org/app/rest/builds/buildType:(id:MultiMC_Launcher_Linux64_Build)/statusIcon"/>
-</a>
-<a href="https://teamcity.multimc.org/viewType.html?buildTypeId=MultiMC_Launcher_Linux64_Deploy&guest=1">
-Deploy: <img src="https://teamcity.multimc.org/app/rest/builds/buildType:(id:MultiMC_Launcher_Linux64_Deploy)/statusIcon"/>
-</a>
-
-### macOS (AMD64)
-<a href="https://teamcity.multimc.org/viewType.html?buildTypeId=MultiMC_Launcher_MacOS_Build&guest=1">
-Build: <img src="https://teamcity.multimc.org/app/rest/builds/buildType:(id:MultiMC_Launcher_MacOS_Build)/statusIcon"/>
-</a>
-<a href="https://teamcity.multimc.org/viewType.html?buildTypeId=MultiMC_Launcher_MacOS_Deploy&guest=1">
-Deploy: <img src="https://teamcity.multimc.org/app/rest/builds/buildType:(id:MultiMC_Launcher_MacOS_Deploy)/statusIcon"/>
-</a>
-
-### Windows (Intel32)
-<a href="https://teamcity.multimc.org/viewType.html?buildTypeId=MultiMC_Launcher_Windows_Build&guest=1">
-Build: <img src="https://teamcity.multimc.org/app/rest/builds/buildType:(id:MultiMC_Launcher_Windows_Build)/statusIcon"/>
-</a>
-<a href="https://teamcity.multimc.org/viewType.html?buildTypeId=MultiMC_Launcher_Windows_Deploy&guest=1">
-Deploy: <img src="https://teamcity.multimc.org/app/rest/builds/buildType:(id:MultiMC_Launcher_Windows_Deploy)/statusIcon"/>
-</a>
