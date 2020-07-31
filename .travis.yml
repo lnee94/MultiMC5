@@ -1,0 +1,26 @@
+language: cpp
+arch: arm64
+dist: bionic
+compiler: clang
+install:
+- sudo apt update
+- sudo apt install openjdk-8-jdk-headless zlib1g-dev libgl1-mesa-dev qt5-default -y
+- sudo update-alternatives --set java /usr/lib/jvm/java-8-openjdk-arm64/jre/bin/java
+- sudo update-alternatives --set javac /usr/lib/jvm/java-8-openjdk-arm64/bin/javac
+script:
+- uname -a
+- mkdir build mmc-develop-arm64 && cd build
+- cmake -DCMAKE_INSTALL_PREFIX=../mmc-develop-arm64 -DMultiMC_META_URL:STRING="https://jjtech0130.github.io/meta-multimc/"
+  -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_C_COMPILER=clang ../
+- make -j2
+- make install
+- cd ..
+after_success:
+- tar -zcf mmc-develop-arm64.tar.gz mmc-develop-arm64
+deploy:
+  provider: releases
+  api_key:
+    secure: YhuKCXOCqLNBf1cspjOaF/uAj8OOHh+d+cKZkUhvS8uEZ7MAqqM47/kJk1E2A31C4wLaKYjDfGpo/WgMgKXipjaw6I2cnVKlePmfk5ilSR7LdAu9ps5BRru+YSab+GyT9kFJK3K7RLjXjb+VvbeomNhNFm0m66BBfSUj/hfjK5zfdNRxvKgJQvOcU/nx2gJOroMQ9QGRhZXLp2eY1xR2QiXNitUfKALn2o4XGov0ioQvoMSTTNDvXqHc3YymsCnSnLASPcG72YfgmH4c4QUaGYwPoPsUePErUsWI/swC8516df7rHHp4c2UmAPtBLpOdFKkpcgEjSUT8Kl9jBpqU2cRqSydrNFISaQaWa6N1m0m2eOT9uyVXacDV1TqY+Xb/a+ERBWcnj830F+mZ6x9Ifa2SOY3wx4NjsMViLvk7qM4UswmnqhBPr3sH4nPlksEDmJ2j0GfyEUYSTS+JBwxcqntHgBJuxzMbQzhimcmiKF3oXCc1tSWaJScm1en036qtEQKDTCEd4KIB0K4pJS6iYDv55hj779FfEZIpX4fZ5njLB5hLXSOZVSUDRfLCAf2m1JtWn07k78HjZ5EGuvCpCSmy9XIR0qp/IpfeJnhAyHGM3cnDdYMrv4I2oMDd1ro1VARkWoz7L8IThHeByREKCjlYSXfLlGQapKTsT7E//98=
+  file: "mmc-develop-arm64.tar.gz"
+  skip_cleanup: 'true'
+  draft: true
