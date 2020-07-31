@@ -2,7 +2,7 @@
   <img src="https://avatars2.githubusercontent.com/u/5411890" alt="MultiMC logo"/>
 </p>
 
-MultiMC for ARM[![Build Status](https://travis-ci.com/JJTech0130/MultiMC5.svg?branch=develop)](https://travis-ci.com/JJTech0130/MultiMC5)
+MultiMC for ARM [![Build Status](https://travis-ci.com/JJTech0130/MultiMC5.svg?branch=develop)](https://travis-ci.com/JJTech0130/MultiMC5)
 =========
 MultiMC for ARM is a community fork of the popular Minecraft launcher for ARM CPUs. 
 
