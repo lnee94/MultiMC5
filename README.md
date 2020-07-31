@@ -2,18 +2,21 @@
   <img src="https://avatars2.githubusercontent.com/u/5411890" alt="MultiMC logo"/>
 </p>
 
-MultiMC 5 [![Build Status](https://travis-ci.com/JJTech0130/MultiMC5.svg?branch=develop)](https://travis-ci.com/JJTech0130/MultiMC5)
+MultiMC for ARM[![Build Status](https://travis-ci.com/JJTech0130/MultiMC5.svg?branch=develop)](https://travis-ci.com/JJTech0130/MultiMC5)
 =========
+MultiMC for ARM is a community fork of the popular Minecraft launcher for ARM CPUs. 
 
-MultiMC is a custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once. It also allows you to easily install and remove mods by simply dragging and dropping. Here are the current [features](https://github.com/MultiMC/MultiMC5/wiki#features) of MultiMC.
+## IT IS NOT ENDORSED OR SUPPORTED BY THE MULTIMC TEAM!!!
 
 
 ## Development
 The project uses C++ and Qt5 as the language and base framework. This might seem odd in the Minecraft community, but allows using 25MB of RAM, where other tools use an excessive amount of resources for no reason.
 
-We can do more, with less, on worse hardware and leave more resources for the game while keeping the launcher running and providing extra features.
+We can do more, with less, on worse hardware (like the Raspberry Pi) and leave more resources for the game while keeping the launcher running and providing extra features.
 
-If you want to contribute, either talk to us on [Discord](https://discord.gg/0k2zsXGNHs0fE4Wm), [IRC](http://webchat.esper.net/?nick=&channels=MultiMC)(esper.net/#MultiMC) or pick up some item from the github issues [workflowy](https://github.com/MultiMC/MultiMC5/issues) - there is always plenty of ideas around.
+If you want to contribute, either talk to the original MultiMC team on [Discord](https://discord.gg/0k2zsXGNHs0fE4Wm), [IRC](http://webchat.esper.net/?nick=&channels=MultiMC)(esper.net/#MultiMC) or pick up some item from the github issues [workflowy](https://github.com/MultiMC/MultiMC5/issues) - there is always plenty of ideas around.
+
+> If you find a bug **specific to this fork,** *PLEASE* put it [here](https://github.com/JJTech0130/MultiMC5/issues) and don't bother the MultiMC team.
 
 ### Building
 If you want to build MultiMC yourself, check [BUILD.md](BUILD.md) for build instructions.
