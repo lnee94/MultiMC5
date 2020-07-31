@@ -46,6 +46,11 @@ Licensed under the Apache License, Version 2.0 (the "License"); you may not use 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
 ## Build status
+### Linux (Aarch64)
+<a href="https://travis-ci.com/JJTech0130/MultiMC5">
+Build: <img src="https://travis-ci.com/JJTech0130/MultiMC5.svg?branch=develop"/>
+</a>
+
 ### Linux (Intel32)
 <a href="https://teamcity.multimc.org/viewType.html?buildTypeId=MultiMC_Launcher_Linux32_Build&guest=1">
 Build: <img src="https://teamcity.multimc.org/app/rest/builds/buildType:(id:MultiMC_Launcher_Linux32_Build)/statusIcon"/>
