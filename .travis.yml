@@ -2,18 +2,11 @@ language: cpp
 arch: arm64
 dist: bionic
 compiler: clang
-install:
-- sudo apt update
-- sudo apt install openjdk-8-jdk-headless zlib1g-dev libgl1-mesa-dev qt5-default -y
-- sudo update-alternatives --set java /usr/lib/jvm/java-8-openjdk-arm64/jre/bin/java
-- sudo update-alternatives --set javac /usr/lib/jvm/java-8-openjdk-arm64/bin/javac
+install: skip
 script:
 - uname -a
-- mkdir build mmc-develop-arm64 && cd build
-- cmake -DCMAKE_INSTALL_PREFIX=../mmc-develop-arm64 -DMultiMC_META_URL:STRING="https://jjtech0130.github.io/meta-multimc/"
-  -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_C_COMPILER=clang ../
-- make -j2
-- make install
+- mkdir mmc-develop-arm64 && cd mmc-develop-arm64
+- touch testfile
 - cd ..
 after_success:
 - tar -zcf mmc-develop-arm64.tar.gz mmc-develop-arm64
