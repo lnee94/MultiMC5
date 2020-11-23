@@ -206,7 +206,7 @@ public:
     QMenu * helpMenu = nullptr;
     TranslatedToolButton helpMenuButton;
     TranslatedAction actionReportBug;
-    TranslatedAction actionDISCORD;
+    //TranslatedAction actionDISCORD;
     TranslatedAction actionREDDIT;
     TranslatedAction actionAbout;
 
@@ -314,6 +314,7 @@ public:
         all_actions.append(&actionReportBug);
         helpMenu->addAction(actionReportBug);
 
+        /*
         actionDISCORD = TranslatedAction(MainWindow);
         actionDISCORD->setObjectName(QStringLiteral("actionDISCORD"));
         actionDISCORD->setIcon(MMC->getThemedIcon("discord"));
@@ -321,6 +322,7 @@ public:
         actionDISCORD.setTooltipId(QT_TRANSLATE_NOOP("MainWindow", "Open MultiMC discord voice chat."));
         all_actions.append(&actionDISCORD);
         helpMenu->addAction(actionDISCORD);
+        */
 
         actionREDDIT = TranslatedAction(MainWindow);
         actionREDDIT->setObjectName(QStringLiteral("actionREDDIT"));
@@ -1458,10 +1460,12 @@ void MainWindow::on_actionREDDIT_triggered()
     DesktopServices::openUrl(QUrl("https://www.reddit.com/r/MultiMC/"));
 }
 
+/*
 void MainWindow::on_actionDISCORD_triggered()
 {
     DesktopServices::openUrl(QUrl("https://discord.gg/0k2zsXGNHs0fE4Wm"));
 }
+*/
 
 void MainWindow::on_actionChangeInstIcon_triggered()
 {
