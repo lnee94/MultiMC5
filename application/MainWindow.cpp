@@ -318,7 +318,7 @@ public:
         actionDISCORD->setObjectName(QStringLiteral("actionDISCORD"));
         actionDISCORD->setIcon(MMC->getThemedIcon("discord"));
         actionDISCORD.setTextId(QT_TRANSLATE_NOOP("MainWindow", "Discord"));
-        actionDISCORD.setTooltipId(QT_TRANSLATE_NOOP("MainWindow", "Open MultiMC discord voice chat."));
+        actionDISCORD.setTooltipId(QT_TRANSLATE_NOOP("MainWindow", "Open JJTech's discord voice chat."));
         all_actions.append(&actionDISCORD);
         helpMenu->addAction(actionDISCORD);
 
@@ -1460,7 +1460,7 @@ void MainWindow::on_actionREDDIT_triggered()
 
 void MainWindow::on_actionDISCORD_triggered()
 {
-    DesktopServices::openUrl(QUrl("https://discord.gg/multimc"));
+    DesktopServices::openUrl(QUrl("https://discord.com/invite/aygTgcYFjS"));
 }
 
 void MainWindow::on_actionChangeInstIcon_triggered()
@@ -1638,7 +1638,7 @@ void MainWindow::on_actionManageAccounts_triggered()
 
 void MainWindow::on_actionReportBug_triggered()
 {
-    DesktopServices::openUrl(QUrl("https://github.com/MultiMC/MultiMC5/issues"));
+    DesktopServices::openUrl(QUrl("https://github.com/JJTech0130/MultiMC5/issues"));
 }
 
 void MainWindow::on_actionPatreon_triggered()

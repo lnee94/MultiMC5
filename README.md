@@ -5,7 +5,7 @@
 MultiMC 5
 =========
 
-MultiMC is a custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once. It also allows you to easily install and remove mods by simply dragging and dropping. Here are the current [features](https://github.com/MultiMC/MultiMC5/wiki#features) of MultiMC.
+MultiMC is a custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once. It also allows you to easily install and remove mods by simply dragging and dropping. Here are the current [features](https://github.com/JJTech0130/MultiMC5/wiki#features) of MultiMC.
 
 
 ## Development
@@ -13,7 +13,7 @@ The project uses C++ and Qt5 as the language and base framework. This might seem
 
 We can do more, with less, on worse hardware and leave more resources for the game while keeping the launcher running and providing extra features.
 
-If you want to contribute, either talk to us on [Discord](https://discord.gg/multimc), [IRC](http://webchat.esper.net/?nick=&channels=MultiMC)(esper.net/#MultiMC) or pick up some item from the github issues [workflowy](https://github.com/MultiMC/MultiMC5/issues) - there is always plenty of ideas around.
+If you want to contribute, either talk to us on [Discord](https://discord.com/invite/aygTgcYFjS), [IRC](http://webchat.esper.net/?nick=&channels=MultiMC)(esper.net/#MultiMC) or pick up some item from the github issues [workflowy](https://github.com/JJTech0130/MultiMC5/issues) - there is always plenty of ideas around.
 
 ### Building
 If you want to build MultiMC yourself, check [BUILD.md](BUILD.md) for build instructions.
