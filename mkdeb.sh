@@ -1,5 +1,5 @@
 #!/bin/bash
-o="$(pwd)/$(wget "$(wget -qO- https://multimc.org/#Download | grep -Eo "https://files.multimc.org/downloads/multimc_[0-9.-]*.deb")" 2>/dev/stdout | grep \‘ | tail -1 | awk -F\‘ '{print $2}' | tr '‘' '\n' | head -1)"
+o="$(pwd)/$(wget "$(wget -qO- https://multimc.org/Download | grep -Eo "https://files.multimc.org/downloads/multimc_[0-9.-]*.deb")" 2>/dev/stdout | grep \‘ | tail -1 | awk -F\‘ '{print $2}' | tr '‘' '\n' | head -1)"
 
 mkdir "$(head -c <<<"$o" $(($(wc -c <<<"$o")-5)))"
 cd "$(head -c <<<"$o" $(($(wc -c <<<"$o")-5)))" ;ar x "../$(basename $o)"
